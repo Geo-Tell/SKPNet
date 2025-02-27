@@ -1,5 +1,5 @@
 # SKPNet
-This repository includes the pure code of SKPNet model in the paper. 
+Official implementation of the paper "Learning Semantic Keypoints for Diverse Point Cloud Completion".
 
 ## Installation
  ### dependencies
@@ -47,4 +47,4 @@ CUDA_VISIBLE_DEVICES=0 main.py --config ./cfgs/ScanNet_models/SKPNet_finetune.ya
 CUDA_VISIBLE_DEVICES=0 python main.py --ckpts ckpts/MVP-best.pth --config ./cfgs/MVP_models/SKPNet.yaml --test --exp_name test_mvp
 CUDA_VISIBLE_DEVICES=0 python main.py --ckpts ckpts/ScanNet-best.pth --config ./cfgs/ScanNet_models/SKPNet_finetune.yaml --test --exp_name test_scannet
 ```
- We provide our pretrained models [here](https://drive.google.com/file/d/1SNudAqsxsrxlzVFlqJoxckJQV1mlpSRJ/view?usp=drive_link).
+ We provide our pretrained models [here]([https://drive.google.com/file/d/1SNudAqsxsrxlzVFlqJoxckJQV1mlpSRJ/view?usp=drive_link](https://drive.google.com/drive/folders/1u-yHgTP45rfqCor2IQhbQbPUwlgp9Mzg?usp=drive_link)).
