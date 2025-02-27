@@ -1,0 +1,10 @@
+NAME: ScanNet
+N_INPUT_POINTS: 2048
+INPUT_PATH: pth/to/scannet/pointclouds_2048pts #PLEASE SPECIFY YOUR DATA PATH HERE!
+GT_PATH:  pth/to/scannet/gt_pointclouds
+SPLIT_PATH:  pth/to/scannet/split
+
+
+
+
+

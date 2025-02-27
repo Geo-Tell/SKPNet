@@ -1,0 +1,12 @@
+
+conda install llvm-openmp == 14.0.6
+pip install trimesh -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install plyfile -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install scipy -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install h5py -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install ninja -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install easydict -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install tensorboardX -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install einops -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install transforms3d -i https://pypi.tuna.tsinghua.edu.cn/simple
+pytorch3d # https://blog.csdn.net/weixin_43357695/article/details/126063091)
